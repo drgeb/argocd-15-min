@@ -5,4 +5,4 @@ PROG_NAME=${PROG_PATH##*/}       # basename of script (strip path)
 PROG_DIR="$(cd "$(dirname "${PROG_PATH:-$PWD}")" 2>/dev/null 1>&2 && pwd)"
 APP_DIR="$(cd "${PROG_DIR}/.." 2>/dev/null 1>&2 && pwd)"
 
-kubectl apply --filename ${APPDIR}/apps.yaml
+kubectl apply --filename ${APP_DIR}/apps.yaml
