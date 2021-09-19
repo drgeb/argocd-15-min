@@ -16,7 +16,7 @@ spec:
         image:
           tag: latest
         ingress:
-          host: devops-toolkit.$INGRESS_HOST.xpi.io
+          host: devops-toolkit.argocd.local
       version: v3
   destination:
     namespace: production

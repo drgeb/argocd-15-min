@@ -16,7 +16,7 @@ spec:
         image:
           tag: latest
         ingress:
-          host: devops-paradox.$INGRESS_HOST.xpi.io
+          host: devops-paradox.argocd.local
       version: v3
   destination:
     namespace: production
