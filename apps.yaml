@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: helm
-    repoURL: https://github.com/vfarcic/argocd-15-min.git
+    repoURL: https://github.com/drgeb/argocd-15-min.git
     targetRevision: HEAD
   destination:
     namespace: production
