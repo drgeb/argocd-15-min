@@ -13,7 +13,7 @@ spec:
     targetRevision: HEAD
   destination:
     namespace: production
-    server: http://argocd.local
+    server: https://kubernetes.default.svc
   syncPolicy:
     automated:
       selfHeal: true
